@@ -8,10 +8,8 @@ ITERATIONS = 3000
 
 alphabet = "ABCDEFGHIKLMNOPQRSTUVWXYZ"
 
-# LOAD QUADGRAMS
 quadgrams = {}
-
-with open("quadgram.txt") as f:
+with open("quadgram.txt") as f: 
     print("Loading quadgrams...")
     total = 0
     for line in f:
@@ -34,7 +32,6 @@ def score(text):
             s += FLOOR
     return s
 
-# PLAYFAIR FUNCTIONS
 def get_position(key, letter):
     index = key.index(letter)
     return index // 5, index % 5
@@ -60,10 +57,7 @@ def decrypt(cipher, key):
         plaintext += decrypt_pair(cipher[i], cipher[i+1], key)
     return plaintext
 
-# ==============================
-# HILL CLIMBING
-# ==============================
-
+# hill climb
 def random_key():
     key = list(alphabet)
     random.shuffle(key)
@@ -78,7 +72,7 @@ def swap(key):
 
 def clean_text(text):
     text = text.upper()
-    text = text.replace("J", "I")
+    text = text.replace("J", "I") 
     return "".join([c for c in text if c in alphabet])
 
 def hill_climb(cipher):
@@ -112,7 +106,6 @@ def hill_climb(cipher):
 
     return best_global_key, best_global_plain
 
-# RUN
 if __name__ == "__main__":
     cipher = clean_text(ciphertext)
     start = time.time()
@@ -123,5 +116,5 @@ if __name__ == "__main__":
     print("FINAL RESULT")
     print("Key:", "".join(key))
     print("Time:", round(end-start, 2), "seconds")
-    print("\nPLAINTEXT:\n")
+    print("\nPLAINTEXT:\n") #hasil akhir
     print(plaintext)
