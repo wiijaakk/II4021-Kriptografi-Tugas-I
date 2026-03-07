@@ -32,10 +32,10 @@ for shift in range(8):
     print(f"  Preview: '{preview}'")
     
     if "MOON" in text or "1412" in text:
-        print(f"✓ FOUND keyword at shift {shift}!")
+        print(f"FOUND keyword at shift {shift}!")
         print("\nSHIFT =",shift)
         print(text[:3020])
         break
     else:
-        print(f"✗ Keyword not found at shift {shift}")
+        print(f"Keyword not found at shift {shift}")
     
