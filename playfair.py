@@ -112,7 +112,7 @@ if __name__ == "__main__":
     key, plaintext = hill_climb(cipher)
     end = time.time()
 
-    print("\n==============================")
+    print("\n===================================")
     print("FINAL RESULT")
     print("Key:", "".join(key))
     print("Time:", round(end-start, 2), "seconds")
