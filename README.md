@@ -2,8 +2,7 @@
 
 ## Kriptanalisis Sederhana pada Algoritma Kriptografi Klasik dan Steganografi
 
-Repository ini berisi implementasi program dan hasil analisis untuk menyelesaikan **Tugas 1 mata kuliah II4021 Kriptografi**.  
-Tugas ini berfokus pada pemecahan beberapa tantangan yang menggunakan algoritma kriptografi klasik serta teknik steganografi.
+Repository ini berisi implementasi program dan hasil analisis untuk menyelesaikan **Tugas 1 mata kuliah II4021 Kriptografi**.  Tugas ini berfokus pada pemecahan beberapa tantangan yang menggunakan algoritma kriptografi klasik serta teknik steganografi.
 
 ---
 
