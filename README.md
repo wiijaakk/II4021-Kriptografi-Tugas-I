@@ -11,11 +11,6 @@ Repository ini berisi implementasi program dan hasil analisis untuk menyelesaika
 - **Wijaksara Aptaluhung** — 18223088  
 - **Gabriela Jennifer Sandy** — 18223092  
 
-Program Studi Sistem dan Teknologi Informasi  
-Sekolah Teknik Elektro dan Informatika  
-Institut Teknologi Bandung  
-2026
-
 ---
 
 ## Daftar Tantangan
